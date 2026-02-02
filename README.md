@@ -27,8 +27,9 @@ Laravel を用いたシンプルなお問い合わせフォームのサンプル
 ---
 
 ## 画面イメージ
+<img width="711" height="421" alt="index" src="https://github.com/user-attachments/assets/8c8bdee8-f2bc-4c5b-8062-f07e5b72b11a" />
 
-![お問い合わせフォーム構成図](drawio.png)
+
 
 ---
 
