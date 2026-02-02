@@ -1,0 +1,108 @@
+.contact-form__title {
+    font-family: "Sanchez";
+    font-size: 30px;
+    font-weight: 300;
+    color: #7a5e51;
+    text-align: center;
+    width: 100%;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-table__header {
+    font-family: "Sanchez";
+    color: #7a5e51;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    font-family: "Sanchez";
+    color: #7a5e51;
+}
+
+.form-table__header--span {
+    color: red;
+}
+
+input,
+textarea,
+select {
+    background-color: #e8e8e8;
+    border: #e8e8e8;
+    border-radius: 5px;
+    font-family: "Sanchez";
+    color: #7a5e51;
+}
+
+.name-wrapper {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.form-table__name {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.form-table__name input {
+    height: 30px;
+}
+
+.tel-wrapper {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.tel-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.tel-block input {
+    height: 30px;
+    width: 100%;
+}
+
+.form-table__email input,
+.form-table__address input,
+.form-table__building input,
+.form-table__category select {
+    width: 100%;
+    height: 30px;
+}
+
+.form-table__content textarea {
+    width: 100%;
+    height: 100px;
+}
+
+.form__error {
+    color: red;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.form__button {
+    margin-top: 10px;
+}
+
+.form__button-submit {
+    font-size: 15px;
+    height: 40px;
+    width: 120px;
+    background-color: #7a5e51;
+    border: #7a5e51;
+    color: #ffffff;
+}

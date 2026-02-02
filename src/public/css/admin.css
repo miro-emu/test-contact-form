@@ -1,0 +1,72 @@
+.header-item {
+    position: absolute;
+    right: 20px;
+    display: flex;
+}
+
+.logout-button {
+    font-family: "Sanchez";
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    height: 40px;
+    width: 120px;
+    background-color: #e8e8e8;
+    border: 1px solid #c8b9aa;
+    color: #c8b9aa;
+    line-height: 40px;
+    text-align: center;
+}
+
+.admin-content {
+    text-align: center;
+}
+
+
+.admin-title {
+    text-decoration: none;
+    font-family: "Sanchez";
+    font-size: 30px;
+    font-weight: 300;
+    color: #7a5e51;
+    text-align: center;
+    width: 100%;
+}
+
+.search-item {
+    background-color: aqua;
+    display: inline-block;
+    width: 700px;
+}
+
+.paginate svg {
+    width: 12px;
+    height: 12px;
+}
+
+/* .pagination li a[rel="prev"],
+.pagination li a[rel="next"],
+.pagination li span[aria-hidden="true"] {
+    display: none !important;
+} */
+
+.admin-table {
+    background-color: red;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.table-header {
+    text-decoration: none;
+    background-color: #7a5e51;
+}
+
+th {
+    color: white;
+    font-size: 14px;
+}
+
+tr {
+    border: 1px solid #e8e8e8;
+}
