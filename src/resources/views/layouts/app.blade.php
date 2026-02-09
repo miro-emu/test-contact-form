@@ -13,7 +13,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Sanchez:ital@0;1&display=swap" rel="stylesheet">
     </head>
 
-    <body>
+    <body class="background">
         <header class="header">
             <h1 class="header__logo">FashionablyLate</h1>
             @yield('header')

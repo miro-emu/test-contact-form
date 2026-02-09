@@ -22,9 +22,7 @@
     margin: 10px;
 }
 
-.confirm-table__inner,
-.confirm-table__inner th,
-.confirm-table__inner td {
+.confirm-table__inner,.confirm-table__header,.confirm-table__text{
     border: 1px solid #e8e8e8;
     border-collapse: collapse;
 }
@@ -48,7 +46,7 @@
 
 }
 
-input {
+table-content {
     border: none;
     outline: none;
     background: none;

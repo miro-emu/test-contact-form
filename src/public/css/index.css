@@ -22,7 +22,7 @@
     text-align: left;
 }
 
-td {
+.form-table__name,.form-table__gender,.form-table__email,.form-table__tel,.form-table__address,.form-table__building,.form-table__category,.form-table__content {
     padding: 10px;
     font-family: "Sanchez";
     color: #7a5e51;
@@ -32,9 +32,9 @@ td {
     color: red;
 }
 
-input,
-textarea,
-select {
+.name-input,.gender-input,.tel-input,.address-input,.building-input,
+.content-textarea,
+.category-select {
     background-color: #e8e8e8;
     border: #e8e8e8;
     border-radius: 5px;
@@ -48,14 +48,14 @@ select {
     width: 100%;
 }
 
-.form-table__name {
+.form-table__name--last,.form-table__name--first {
     display: flex;
     flex-direction: column;
     gap: 5px;
     width: 100%;
 }
 
-.form-table__name input {
+.name-input {
     height: 30px;
 }
 
@@ -70,20 +70,20 @@ select {
     flex-direction: column;
 }
 
-.tel-block input {
+.tel-input {
     height: 30px;
     width: 100%;
 }
 
-.form-table__email input,
-.form-table__address input,
-.form-table__building input,
-.form-table__category select {
+.email-input,
+.address-input,
+.building-input,
+.category-select {
     width: 100%;
     height: 30px;
 }
 
-.form-table__content textarea {
+.content-textarea {
     width: 100%;
     height: 100px;
 }

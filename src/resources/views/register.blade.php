@@ -19,7 +19,7 @@
         @csrf
             <div class="form-item">
                 <h3 class="form-title">お名前</h3>
-                <input type="text" name="name" placeholder="例:山田太郎" value="{{ old('name') }}">
+                <input class="form-input" type="text" name="name" placeholder="例:山田太郎" value="{{ old('name') }}">
                 <div class="form__error">
                     @error('name')
                         {{ $message }}
@@ -28,7 +28,7 @@
             </div>
             <div class="form-item">
                 <h3 class="form-title">メールアドレス</h3>
-                <input type="email" name="email" placeholder="例:test@example.com" value="{{ old('email') }}">
+                <input class="form-input" type="email" name="email" placeholder="例:test@example.com" value="{{ old('email') }}">
                 <div class="form__error">
                     @error('email')
                         {{ $message }}
@@ -37,7 +37,7 @@
             </div>
             <div class="form-item">
                 <h3 class="form-title">パスワード</h3>
-                <input type="text" name="password" placeholder="例:coachtech1106">
+                <input class="form-input" type="text" name="password" placeholder="例:coachtech1106">
                 <div class="form__error">
                     @error('password')
                         {{ $message }}

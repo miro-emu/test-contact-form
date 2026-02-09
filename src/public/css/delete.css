@@ -1,0 +1,37 @@
+.background {
+    background-color: #ebe6e1;
+}
+
+.delete-message {
+    text-align: center;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.delete-text {
+    text-decoration: none;
+    font-family: "Sanchez";
+    font-size: 30px;
+    font-weight: 300;
+    color: #7a5e51;
+}
+
+.delete-page {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 15px;
+}
+
+.delete-page-button {
+    font-family: "Sanchez";
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    height: 40px;
+    width: 140px;
+    background-color: #e8e8e8;
+    border: 1px solid #c8b9aa;
+    color: #c8b9aa;
+    line-height: 40px;
+    text-align: center;
+}

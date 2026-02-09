@@ -15,16 +15,16 @@ class CreateContactsTable extends Migration
     {
         Schema::create('contacts', function (Blueprint $table) {
             $table->id();
-            $table->integer('category_id');
-            $table->string('last_name',225);
-            $table->string('first_name',225);
+            $table->foreignId('category_id')->constrained()->cascadeOnDelete();
+            $table->string('last_name');
+            $table->string('first_name');
             $table->tinyInteger('gender')->comment('1: 男性, 2: 女性, 3: その他');
-            $table->string('email',225);
-            $table->string('tel',225);
-            $table->string('address',225);
-            $table->string('building',225)->nullable();
+            $table->string('email');
+            $table->string('tel');
+            $table->string('address');
+            $table->string('building')->nullable();
             $table->text('detail');
-            $table->timestamps();
+            $table->timestamps;
         });
     }
 

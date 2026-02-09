@@ -21,7 +21,7 @@ use App\Http\Controllers\AdminController;
 // });
 
 Route::get('/',[ContactController::class,'index']);
-Route::post('/', [ContactController::class, 'index']);
+Route::post('/', [ContactController::class, 'modify']);
 Route::post('/confirm', [ContactController::class, 'confirm']);
 Route::post('/thanks', [ContactController::class, 'store']);
 
@@ -32,7 +32,12 @@ Route::post('/login',[AdminLoginController::class,'loginCheck']);
 Route::get('/admin',[AdminLoginController::class,'admin']);
 Route::post('/logout',[AdminLoginController::class,'logout']);
 
-Route::get('/admin',[AdminController::class,'admin']);
+Route::get('/admin',[AdminController::class,'admin'])->name('admin');
 Route::post('/admin',[AdminController::class,'admin']);
 Route::get('/admin/export', [AdminController::class, 'exportCsv'])->name('admin.export');
 Route::get('/contacts/search', [AdminController::class, 'search']);
+Route::post('/delete', [AdminController::class, 'remove']);
+Route::get('/delete/complete', function () {
+    return view('delete');
+})->name('delete.complete');
+Route::get('/reset', [AdminController::class, 'reset']);

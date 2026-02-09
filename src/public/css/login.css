@@ -1,4 +1,4 @@
-body {
+.background {
     background-color: #ebe6e1;
 }
 
@@ -49,7 +49,7 @@ body {
     color: #7a5e51;
 }
 
-.form-item input {
+.form-input {
     background-color: #e8e8e8;
     border: #e8e8e8;
     border-radius: 5px;

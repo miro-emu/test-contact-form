@@ -14,6 +14,12 @@ class ContactController extends Controller
         return view('index',compact('categories'));
     }
 
+    public function modify(){
+        return redirect('/')
+                        ->withInput();
+    }
+
+
     public function confirm(ContactRequest $request){
         $contact =$request->validated();
         $contact['name'] = $request->last_name . ' ' . $request->first_name;
@@ -48,6 +54,6 @@ class ContactController extends Controller
 
     public function category(){
     return $this->belongsTo(Category::class);
-}
+    }
 
 }
